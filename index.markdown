@@ -12,7 +12,7 @@ title: homepage
 
 ## 最新文章
 {% for post in site.posts %}
-  - [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
+  - [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%Y-%m-%d %H:%M" }}
 {% endfor %}
 
 [关于我](/about/)
