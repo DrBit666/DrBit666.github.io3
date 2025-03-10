@@ -30,6 +30,8 @@ site:
     - is_project_page: false
     - owner_url: https://github.com/DrBit666
 timezone: Asia/Shanghai
+url: "https://www.zhangzihe.blog"
+baseurl: ""
 
 
 
