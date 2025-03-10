@@ -24,7 +24,7 @@ email: zhangzihe1922@163.com
 description: >- # this means to ignore newlines until "baseurl:"
   可雕琢和支配的唯有本心
 lang: cn_zh
-logo: ./img/avatar2.png
+logo: ./img/avatars/avatar2.png
 site:
   - github:
     - is_project_page: false
