@@ -30,7 +30,7 @@ v: zhang
 ```
 ---
 #### reflect.ValueOf(i)
-  * reflect.ValueOf(i)返回的是reflect.Value类型,它封装了对i的运行时表示,包括它的具体值和类型
+  * reflect.ValueOf(i)返回的是reflect.Value类型,它封装了对i的运行时表示,包括它的**具体值**和**类型**
   * 它不仅仅是一个具体值,而是一个可以动态访问和操作值的反射对象
   * 通过v := reflect.Value，你可以:
     * 获取变量的值(v.Int(),v.String())
@@ -65,7 +65,7 @@ v: 3
 ---
 #### reflect.TypeOf(i)
   * reflect.TypeOf(i)返回的是reflect.Type类型,表示**i的类型**的元数据
-  * 它只包含类型信息，不包含任何具体的值
+  * 它**只包含类型信息**，不包含**任何具体的值**
   * 通过t := reflect.Type,你可以:
     * 获取类型名称(t.Name())
     * 获取底层类型类别(t.Kind())
