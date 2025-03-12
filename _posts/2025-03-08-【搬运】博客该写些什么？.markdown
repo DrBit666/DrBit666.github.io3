@@ -5,6 +5,7 @@ title: "【搬运】博客该写些什么"
 date: 2025-03-08 14:53
 author: simonwillison
 tags: 翻译
+toc: true
 
 ---
 
